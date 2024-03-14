@@ -1,0 +1,42 @@
+/*  your css code here. If applicable */
+.otp_body{
+	border:2px solid black;
+	border-radius:50px;
+}
+.verify{
+	margin:10%;
+}
+body {
+            font-family: 'Arial', sans-serif;
+            align-items: center;
+            height: 100vh;
+	        display: flex;
+	        justify-content: center;
+           
+        }
+#verification_heading {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 10px;
+	        text-align:center;
+        }
+#verification_subtext {
+            font-size: 16px;
+            margin-bottom: 20px;
+	text-align:center;
+        }
+.code-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+.code{
+            width: 40px;
+            height: 60px;
+            font-size: 20px;
+	        margin:5px;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 15%;
+            outline: none;
+        }
